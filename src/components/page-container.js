@@ -1,4 +1,4 @@
-function Container({ children }) {
+function PageContainer({ children }) {
   const objectStyle = {
     background: "#002D62",
     padding: 0,
@@ -14,4 +14,4 @@ function Container({ children }) {
   );
 }
 
-export default Container;
+export default PageContainer;

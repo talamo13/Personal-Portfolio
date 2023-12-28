@@ -1,10 +1,8 @@
-import Container from "../components/container";
-
 function Projects() {
   return (
-    <Container>
+    <div>
       <h1>Projects Page</h1>
-    </Container>
+    </div>
   );
 }
 

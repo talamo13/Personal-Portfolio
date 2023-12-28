@@ -1,10 +1,8 @@
-import Container from "../components/container";
-
 function About() {
   return (
-    <Container>
+    <div>
       <h1>About Page</h1>
-    </Container>
+    </div>
   );
 }
 

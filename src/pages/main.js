@@ -1,8 +1,19 @@
+import TypeWriter from "../components/typewriter-animation.js";
+import PageContainer from "../components/page-container.js";
+
 function Main() {
   return (
-    <div>
-      <h1>Main Page</h1>
-    </div>
+    <PageContainer>
+      <div
+        style={{
+          fontSize: "45px",
+          fontWeight: "bolder",
+          margin: "40px",
+        }}
+      >
+        <TypeWriter />
+      </div>
+    </PageContainer>
   );
 }
 

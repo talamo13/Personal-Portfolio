@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
 import { Image } from "react-bootstrap";
+
 function NavMain() {
   return (
     <>

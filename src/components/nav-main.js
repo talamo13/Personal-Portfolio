@@ -23,7 +23,7 @@ function NavMain() {
               marginLeft: "5px",
             }}
           >
-            Tyler Alamo-Covert
+            TAC
           </Navbar.Brand>
           <Nav className="mr-auto ml-auto">
             <Nav.Link

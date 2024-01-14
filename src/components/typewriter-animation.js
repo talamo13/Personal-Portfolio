@@ -4,17 +4,28 @@ import { useTypeWriter } from "@vegadev/react-type-writer";
 const TypeWriter = () => {
   const text = useTypeWriter({
     text: [
-      "I am a student at Long Beach State!",
-      "I am a programmer",
-      "That was kinda nerdy",
+      "I Am A Student At Long Beach State!",
+      "Experience As A NASA Intern",
+      "Created This Website Using React JS!",
     ],
     infiniteLoop: true,
     blinker: "|",
-    delay: 2000,
+    delay: 500,
     blinkerDelay: 300,
   });
 
-  return <div>{text}</div>;
+  return (
+    <div
+      style={{
+        color: "#d6d8e4",
+        fontSize: "50px",
+        fontWeight: "bold",
+        height: "80px",
+      }}
+    >
+      {text}
+    </div>
+  );
 };
 
 export default TypeWriter;

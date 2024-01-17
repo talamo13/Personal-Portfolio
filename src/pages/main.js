@@ -15,7 +15,6 @@ function Main() {
       <Container style={{ marginTop: "75px" }}>
         <Row
           style={{
-            fontFamily: "Courier Prime",
             fontSize: "20px",
             marginBottom: "10px",
             fontWeight: "bold",
